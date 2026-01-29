@@ -1,0 +1,8 @@
+#CV
+cv_achard_cedric.pdf
+
+# Développement
+memos_dev.txt
+
+# Ignorer tous les fichiers dans le dossier img
+img/*
