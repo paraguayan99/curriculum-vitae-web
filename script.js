@@ -76,3 +76,26 @@ if (document.getElementById("sendfalse")){
   top: document.body.scrollHeight,
   behavior: 'auto'});
 }
+
+// Gestion du changement de thème (clair/sombre)
+
+// Vérifier si un thème est sauvegardé dans le localStorage, sinon utiliser le thème sombre par défaut
+const currentTheme = localStorage.getItem('theme') || 'dark';
+document.body.classList.add('theme-' + currentTheme);
+
+// Écouteur d'événement sur le bouton de changement de thème
+document.getElementById("btnThemeToggle").addEventListener("click", toggleTheme);
+
+function toggleTheme() {
+    if (document.body.classList.contains('theme-dark')) {
+        // Passer au thème clair
+        document.body.classList.remove('theme-dark');
+        document.body.classList.add('theme-light');
+        localStorage.setItem('theme', 'light');
+    } else {
+        // Passer au thème sombre
+        document.body.classList.remove('theme-light');
+        document.body.classList.add('theme-dark');
+        localStorage.setItem('theme', 'dark');
+    }
+}

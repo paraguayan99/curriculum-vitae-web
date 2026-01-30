@@ -20,16 +20,21 @@
         <a id="btnBackToTop"><i class="fa-solid fa-circle-arrow-up"></i></a>
     </div>
 
+    <!-- Bouton pour changer de thème (clair/sombre) -->
+    <div id="themeToggle" class="noprint">
+        <a id="btnThemeToggle"><i class="fa-solid fa-circle-half-stroke"></i></a>
+    </div>
+
     <!-- Header avec photo, infos et projet professionnel en haut du site -->
     <header class="flex reveal">
         <div id="photo_cv" class="flex">
-            <img src="img/photo_cv.png" alt="photo_cv">
+            <a href=""><img src="img/photo_cv.png" alt="photo_cv"></a>
         </div>
 
         <div id="infos">
             <h2>ACHARD Cédric</h2>
             <ul>
-                <li>36 ans - Montpellier</li>
+                <li>37 ans - Montpellier</li>
                 <li><i class="fa-solid fa-phone"></i> <a id="tel" href="tel:0671744802">06 71 74 48 02</a></li>
                 <li><i class="fa-solid fa-envelope"></i> <a id="mailto" href="mailto:achardcedric88@gmail.com">achardcedric88@gmail.com</a></li>
             </ul>
@@ -37,16 +42,41 @@
 
         <div id="project" class="reveal-1">
             <h2>Développeur Web et Web Mobile</h2>
-            <p>En formation au sein du CEFii de Janvier à Septembre,
-                je souhaite consolider mon apprentissage lors d’un stage d'Octobre à Décembre … et vous rejoindre en CDI</p>
+            <p>ECF validées, titre <strong>DWWM</strong> en attente de validation (février).
+                Je recherche une première opportunité en <strong>CDI</strong> ou en <strong>alternance</strong>, 
+                afin de monter en compétences et d’évoluer vers le titre de <strong>Concepteur Développeur d’Applications</strong>.</p>
         </div>
     </header>
 
-    <!-- Main contenant notions validées, expériences professionnelles, formations et infos diverses dans chaque section -->
+    <!-- Main contenant portfolio, stack technique, expériences professionnelles, formations et infos diverses dans chaque section -->
     <main class="flex">
-        <!-- Notions validées en développement -->
+        <!-- Portfolio -->
+        <section id="liens" class="flex reveal">
+            <h2 class="reveal-2"><i class="fa-solid fa-book-bookmark"></i> Portfolio</h2>
+            <div class="flex reveal-4">
+                <aside>Liens</aside>
+                <article>
+                    <ul>
+                        <li><i class="fa-brands fa-github"></i></i> 
+                            <a href="https://github.com/paraguayan99/" target="_blank">github.com/paraguayan99</a>
+                        </li>
+                        <li><i class="fa-solid fa-arrow-right"></i> Dépôt de mes projets de développement</li>
+
+                        <div></div>
+
+                        <li><object id="logoSvg" data="img/team_eracing_logo_white.svg" type="image/svg+xml" width="24" height="16"></object> 
+                            <a href="https://team-eracing.fr/" target="_blank">team-eracing.fr</a>
+                        </li>
+                        <li><i class="fa-solid fa-arrow-right"></i> Projet de fin d'études utilisé par notre communauté</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+
+        <!-- Stack technique -->
         <section id="notions" class="flex reveal">
-            <h2 class="reveal-2"><i class="fa-solid fa-code"></i> Notions validées à ce jour</h2>
+            <h2 class="reveal-2"><i class="fa-solid fa-code"></i> Stack technique</h2>
             <div class="flex reveal-4">
                 <aside>Front-end</aside>
                 <article>
@@ -54,7 +84,8 @@
                         <li><i class="fa-brands fa-html5"></i> HTML</li>
                         <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
                         <li><i class="fa-brands fa-js"></i> JavaScript</li>
-                        <li><i class="fa-brands fa-bootstrap"></i> Framework Bootstrap</li>
+                        <li><i class="fa-brands fa-bootstrap"></i> Bootstrap</li>
+                        <li><i class="fa-solid fa-rotate-left"></i> AJAX / JavaScript asynchrone</li>
                     </ul>
                 </article>
             </div>
@@ -63,11 +94,31 @@
                 <aside>Back-end</aside>
                 <article>
                     <ul>
-                        <li><i class="fa-brands fa-php"></i> PHP / Programmation procédurale et Orientée Objet</li>
+                        <li><i class="fa-brands fa-php"></i> PHP / Programmation procédurale et orientée objet</li>
                         <li><i class="fa-solid fa-database"></i> Base de données MySQL / phpMyAdmin</li>
                         <li><i class="fa-solid fa-database"></i> Base de données NoSQL / MongoDB Compass et Mongosh</li>
-                        <li><i class="fa-solid fa-table-list"></i> MERISE / Schématiser Base de données</li>
+                        <li><i class="fa-solid fa-gear"></i> API REST en PHP & JavaScript avec Postman</li>
+                        <li><i class="fa-solid fa-table-list"></i> MERISE / Schématiser base de données</li>
                         <li><i class="fa-solid fa-square-share-nodes"></i> UML Modélisation / Astah UML</li>
+                    </ul>
+                </article>
+            </div>
+
+            <div class="flex reveal-4">
+                <aside>Mobile</aside>
+                <article>
+                    <ul>
+                        <li><i class="fa-solid fa-mobile-screen-button"></i> Kotlin / Application mobile avec Android Studio</li>
+                    </ul>
+                </article>
+            </div>
+
+            <div class="flex reveal-4">
+                <aside>Outils</aside>
+                <article>
+                    <ul>
+                        <li><i class="fa-brands fa-github"></i></i> Git / Github</li>
+                        <li><i class="fa-brands fa-docker"></i> Docker / Docker Hub</li>
                     </ul>
                 </article>
             </div>
@@ -76,11 +127,13 @@
                 <aside>Général</aside>
                 <article>
                     <ul>
-                        <li><i class="fa-solid fa-globe"></i> Anglais</li>
-                        <li><i class="fa-solid fa-diagram-project"></i> Gestion de projet web / Gantt Project</li>
-                        <li><i class="fa-solid fa-computer-mouse"></i> Ergonomie web</li>
-                        <li><i class="fa-solid fa-palette"></i> Maquetter interface UX UI / FIGMA & GlooMaps</li>
+                        <li><i class="fa-solid fa-infinity"></i> DevOps</li>
                         <li><i class="fa-solid fa-calculator"></i> Programmation et Algorithmique</li>
+                        <li><i class="fa-solid fa-diagram-project"></i> Gestion de projet web / Gantt Project</li>
+                        <li><i class="fa-solid fa-palette"></i> Maquetter interface UX UI / Figma & GlooMaps</li>
+                        <li><i class="fa-solid fa-computer-mouse"></i> Ergonomie web</li>
+                        <li><i class="fa-solid fa-magnifying-glass"></i> SEO / Référencement naturel</li>
+                        <li><i class="fa-brands fa-wordpress"></i> CMS / WordPress</li>
                     </ul>
                 </article>
             </div>
@@ -208,13 +261,13 @@
                 <aside>
                     <ul>
                         <li class="fs-italic">2025</li>
-                        <li>En cours ...</li>
+                        <li>À distance</li>
                     </ul>
                 </aside>
                 <article>
                     <ul>
                         <li class="fw-bold">Développement Web et Web Mobile | Niveau 5 (Bac+2) | RNCP37674</li>
-                        <li class="fs-italic">CEFii Angers</li>
+                        <li class="fs-italic">CEFii Angers - Formation sur 12 mois</li>
                     </ul>
                 </article>
             </div>
@@ -253,11 +306,13 @@
                 <aside>
                     <ul>
                         <li class="fs-italic">2007</li>
+                        <li>Montpellier</li>
                     </ul>
                 </aside>
                 <article>
                     <ul>
                         <li class="fw-bold">BAFA, AFPS, BSB - Animateur en centre de loisirs</li>
+                        <li class="fs-italic">Direction Départementale de la Jeunesse et des Sports</li>
                     </ul>
                 </article>
             </div>
@@ -353,11 +408,11 @@
 
             <?php
             // Après le traitement.php, une redirection '?send=true/false' est faite : l'un des 2 messages s'affiche
-            if ($_GET['send'] == 'true'){
+            if (isset($_GET['send']) && $_GET['send'] == 'true') {
                 echo '<div id="sendtrue" class="flex reveal-2">
                             CV envoyé avec succès !
                         </div>';
-            } elseif ($_GET['send'] == 'false'){
+            } elseif (isset($_GET['send']) && $_GET['send'] == 'false') {
                 echo '<div id="sendfalse" class="flex reveal-2">
                             Echec, veuillez réessayer.
                         </div>';
@@ -365,9 +420,11 @@
             ?>
 
             <div id="autor" class="flex reveal-2">
-                <div>Imaginé et conçu par mes soins en Mai 2025</div>
+                <div>Imaginé et conçu par mes soins</div>
                 <div><small>CV Responsive Smartphone / Tablette / Desktop</small></div>
                 <div><small>Garanti sans Framework / 100% Artisanal</small></div>
+                <div><small>HTML - CSS - JavaScript - PHP</small></div>
+                <div><small><i class="fa-brands fa-github"></i> Voir le code source sur <a href="https://github.com/paraguayan99/curriculum-vitae-web" target="_blank">Github</a></small></div>
             </div>
     </footer>
 </body>

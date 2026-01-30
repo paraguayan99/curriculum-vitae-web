@@ -1,13 +1,38 @@
 /* STYLE POUR L'IMPRESSION */
 
 @media print {
-    .noprint{ display: none !important; }
+    .noprint { 
+        display: none !important; 
+    }
 
-    html{ font-size: 8pt; }
+    html { 
+        font-size: 11pt; 
+    }
 
     body {
-        color: black;
-        background-color: transparent;
+        color: black !important;
+        background-color: transparent !important;
+    }
+
+    header {
+        background-color: #30303018 !important;
+    }
+
+    #mailto, #tel {
+        color: black !important;
+    }
+
+    a {
+        color: black !important;
+    }
+
+    section h2 {
+        color: black !important;
+    }
+
+    /* Inverser le logo SVG en noir pour l'impression */
+    #logoSvg {
+        filter: invert(1) brightness(0);
     }
 
     .reveal-loaded .reveal [class*="reveal-"] {
@@ -27,22 +52,19 @@
     }
 
     header {
+        width: 90% !important;
         justify-content: space-evenly;
-        background-color: #30303018;
     }
 
     #photo_cv {
         width: 15%;
         justify-content: center;
+        align-items: center;
     }
 
     #photo_cv img {
         max-width: 100%;
-        max-height: 100px;
-    }
-
-    #mailto, #tel {
-    color : black;
+        max-height: 180px;
     }
 
     #infos {
@@ -54,16 +76,20 @@
     }
 
     main {
-        justify-content: flex-end;
+        padding-left: 15%;
     }
 
     main section {
-        /* a modifier pour le centrage et le retour à la ligne */
-        width: 75%;
+        width: 100%;
+    }
+
+    main section div {
+        width: 95%;
+        display: flex;
     }
 
     section h2 {
-        width: 50%;
+        width: 70%;
         margin-left: 10%;
     }
 
@@ -72,9 +98,21 @@
     }
 
     main section div article {
-        width: 80%;
+        width: 100%;
     }
 
+    /* Empêcher la coupure des div à l'intérieur */
+    main section div {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    @page {
+        margin-top: 2cm;     /* Marge en haut de TOUTES les pages */
+        margin-bottom: 2cm;  /* Marge en bas */
+        margin-left: 1cm;
+        margin-right: 1cm;
+    }
 }
 
 /* SUPPORT SMARTPHONE */
@@ -127,6 +165,7 @@
 
     #project {
         width: 80%;
+        padding-right: 5%;
     }
 
     main {
@@ -135,6 +174,10 @@
 
     main section {
         /* a modifier pour le centrage et le retour à la ligne */
+        width: 95%;
+    }
+
+    main section div {
         width: 95%;
     }
 
@@ -212,6 +255,7 @@
 
     #project {
         width: 80%;
+        padding-right: 5%;
     }
 
     main {
@@ -220,6 +264,10 @@
 
     main section {
         /* a modifier pour le centrage et le retour à la ligne */
+        width: 95%;
+    }
+
+    main section div {
         width: 95%;
     }
 
@@ -244,7 +292,6 @@
     #submit {
         width: 20%;
     }
-
 }
 
 /* SUPPORT DESKTOP */
@@ -308,6 +355,10 @@
         width: 85%;
     }
 
+    main section div {
+        width: 100%;
+    }
+
     section h2 {
         width: 50%;
         margin-left: 10%;
@@ -340,6 +391,10 @@
     display: flex;
 }
 
+html { 
+    font-size: 1em; 
+}
+
 .fw-bold {
     font-weight: bold;
 }
@@ -367,8 +422,140 @@
     color: rgba(255, 255, 255, 1);
 }
 
+/* Styles pour le bouton de changement de thème */
+#themeToggle {
+    bottom: 1em;
+    left: 1em;
+    z-index: 99;
+    position: fixed;
+    font-size: 3em;
+    cursor: pointer;
+}
+
+#themeToggle i {
+    color: rgba(255, 255, 255, 0.6);
+    transition: color 0.3s ease;
+}
+
+#themeToggle i:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+/* Thème sombre (par défaut) */
+body.theme-dark {
+    color: #fff;
+    background-color: #131313;
+}
+
+body.theme-dark header {
+    background-color: #303030;
+}
+
+body.theme-dark #mailto,
+body.theme-dark #tel {
+    color: white;
+}
+
+body.theme-dark a {
+    color: #fff;
+}
+
+body.theme-dark a:hover,
+body.theme-dark a:visited,
+body.theme-dark a:active {
+    color: #fff;
+}
+
+body.theme-dark footer {
+    background-color: #303030;
+}
+
+body.theme-dark #themeToggle i {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+body.theme-dark #themeToggle i:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+/* Thème clair */
+body.theme-light {
+    color: #000;
+    background-color: #ffffff;
+}
+
+body.theme-light header {
+    background-color: #f0f0f0;
+}
+
+body.theme-light #mailto,
+body.theme-light #tel {
+    color: #000;
+}
+
+body.theme-light a {
+    color: #000;
+}
+
+body.theme-light a:hover {
+    color: #000;
+}
+
+body.theme-light a:visited {
+    color: #000;
+}
+
+body.theme-light a:active {
+    color: #000;
+}
+
+body.theme-light footer {
+    background-color: #f0f0f0;
+}
+
+body.theme-light section h2 {
+    color: #000;
+}
+
+body.theme-light #themeToggle i {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+body.theme-light #themeToggle i:hover {
+    color: rgba(0, 0, 0, 1);
+}
+
+body.theme-light #backToTop i {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+body.theme-light #backToTop i:hover {
+    color: rgba(0, 0, 0, 1);
+}
+
+/* Inverser le logo SVG en thème clair */
+body.theme-light #logoSvg {
+    filter: invert(1) brightness(0);
+}
+
 body {
     font-family: "Lustria", serif;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #fff;
+}
+
+a:visited {
+    color: #fff;
+}
+
+a:active {
+    color: #fff;
 }
 
 ul {
@@ -418,7 +605,6 @@ main section {
 }
 
 main section div {
-    width: 100%;
     padding: 1em 0em;
 }
 
@@ -432,7 +618,6 @@ footer {
     height: 13em;
     justify-content: center;
     align-items: center;
-    background-color: #303030;
     border-radius: 15px 50px
 }
 
@@ -460,16 +645,44 @@ footer div {
 
 #cvbymail input {
     height: 2em;
-    color : black;
     font-family: "Lustria", serif;
     font-weight: bold;
     border-radius: 4px 10px;
     border-style: none;
 }
 
+body.theme-light #cvbymail input {
+    color: white;
+}
+
+body.theme-dark #cvbymail input {
+    color: black;
+}
+
 #sendmail, #submit {
-    background-color: white;
     text-align: center;
+}
+
+body.theme-dark #sendmail, 
+body.theme-dark #submit {
+    background-color: white;
+    transition: background-color 0.5s ease;
+}
+
+body.theme-light #sendmail,
+body.theme-light #submit {
+    background-color: grey;
+    transition: background-color 0.5s ease;
+}
+
+body.theme-light #submit:hover,
+body.theme-dark #submit:hover {
+    background-color: black;
+    color: white;
+}
+
+body.theme-light #sendmail::placeholder {
+    color: rgba(255, 255, 255, 0.658);
 }
 
 #sendtrue {
@@ -486,6 +699,8 @@ footer div {
     color: grey;
     display: inline-flex;
 }
+
+/* Thème sombre (par défaut) */
 
 ul li i {
     width: 1.5em;
