@@ -9,7 +9,14 @@ RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 ErrorDocument 404 https://achardcedric.fr/
 ErrorDocument 403 https://achardcedric.fr/
 
+# Exception pour les fichiers CSS, JS, images et autres ressources statiques
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
+
+# Exception pour les URLs avec paramètre send=true ou send=false
+RewriteCond %{QUERY_STRING} ^send=(true|false)$
+RewriteRule ^$ - [L]
+
 # Rediriger TOUT ce qui n'est pas la racine vers achardcedric.fr
-# Cette règle s'applique à tous les sous-dossiers et fichiers, qu'ils existent ou non
 RewriteCond %{REQUEST_URI} !^/$
 RewriteRule ^(.*)$ https://achardcedric.fr/ [R=301,L]
