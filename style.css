@@ -580,7 +580,7 @@ header {
     border-radius: 50% 20% / 10% 40%;
 }
 
-#infos h2, #infos li:not(:last-child) {
+#infos h2, #infos li:nth-child(-n+2) {
     font-variant: small-caps;
 }
 

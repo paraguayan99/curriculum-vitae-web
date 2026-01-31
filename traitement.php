@@ -1,9 +1,8 @@
 <?php
+// Envoi du mail, avec contenu HTML + pièce jointe CV en PDF, via PHPMailer
 
-// Envoi du mail, avec contenu HTML + pièce jointe CV en PDF, via PHPMAiler
-
-use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
+use PHPMailer\PHPMailer\PHPMailer;
 
 require 'PHPMailer/src/Exception.php';
 require 'PHPMailer/src/PHPMailer.php';
@@ -12,11 +11,15 @@ $mail = new PHPMailer(true);
 
 $sendmail = (isset($_POST['sendmail']))?$_POST['sendmail']:null;
 
-// SI CHGT D'HERBEGEUR : changer l'adresse setFrom avec le bon nom de domaine sinon le mail ne partira pas ou ira dans les spams
+// SI CHANGEMENT D'HERBEGEUR ET DNS : changer l'adresse setFrom avec le bon nom de domaine sinon le mail ne partira pas ou ira dans les spams
 // Tester l'efficacité de l'envoi sur https://www.mail-tester.com/ (3 essais par jour) -> si note faible, il déterminera les améliorations à apporter
 
 try {
-    $mail->setFrom('cvachardcedric@paraguayan99.go.yj.fr');
+    // Utiliser mail() au lieu de SMTP (O2Switch bloque le SMTP sortant)
+    $mail->isMail();
+    
+    $mail->setFrom('noreply@achardcedric.fr', 'ACHARD Cédric');
+    $mail->Sender = 'noreply@achardcedric.fr';
     $mail->addAddress($sendmail);
     $mail->addBCC('achardcedric88@gmail.com');
 
@@ -26,7 +29,7 @@ try {
     $mail->CharSet = 'UTF-8';
     $mail->Encoding = 'base64';
     $mail->Subject = 'CV ACHARD Cédric';
-    $mail->Body    = '
+    $mail->Body = '
                     <!DOCTYPE html>
                     <html lang="fr">
                     <head>
@@ -72,21 +75,23 @@ try {
                             achardcedric<span style="display: none;">_</span>88<span style="display: none;">_</span>@gmail.<span style="display: none;">_</span>com
                         </p>
                         <p style="margin-bottom: 40px; margin-top: 0; font-size: 16px;">
-                            <a href="https://bit.ly/cv-achard-cedric" style="color:#000000;" target="_blank">>Revenir sur le CV en ligne<</a>
+                            <a href="https://achardcedric.fr" style="color:#000000;" target="_blank">>Revenir sur le CV en ligne<</a>
                         </p>
                         </div>
                     </body>
                     </html>
                     ';
+    $mail->AltBody = 'Merci d\'avoir pris le temps de lire mon CV et d\'avoir demandé à le recevoir par mail. 
+                        Chose promise, chose due... Le voici en pièce jointe. 
+                        Au plaisir d\'échanger avec vous très prochainement. 
+                        ACHARD Cédric - 06 71 74 48 02 - achardcedric88@gmail.com';
 
     $mail->send();
-    header('Location: https://paraguayan99.go.yj.fr/?send=true');
+    header('Location: https://achardcedric.fr/?send=true');
     exit;
 } catch (Exception $e) {
-    header('Location: https://paraguayan99.go.yj.fr/?send=false');
+    header('Location: https://achardcedric.fr/?send=false');
     exit;
 }
-
-// SI CHGT D'HERBEGEUR : changer les 2 'Location'
-
+//  SI CHANGEMENT D'HERBEGEUR ET DNS : changer les 2 'Location'
 ?>

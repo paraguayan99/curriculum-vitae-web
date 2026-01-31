@@ -1,0 +1,15 @@
+# Activer le moteur de réécriture
+RewriteEngine On
+
+# https obligatoire
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Rediriger toutes les erreurs vers la page d'accueil
+ErrorDocument 404 https://achardcedric.fr/
+ErrorDocument 403 https://achardcedric.fr/
+
+# Rediriger TOUT ce qui n'est pas la racine vers achardcedric.fr
+# Cette règle s'applique à tous les sous-dossiers et fichiers, qu'ils existent ou non
+RewriteCond %{REQUEST_URI} !^/$
+RewriteRule ^(.*)$ https://achardcedric.fr/ [R=301,L]
