@@ -5,7 +5,7 @@ _Mon CV en ligne - Projet personnel DWWM_
 
 ## 🔗 Accès
 
-- https://achardcedric.fr
+- <a href="https://achardcedric.fr" target="_blank" rel="noopener noreferrer">https://achardcedric.fr</a>
 
 ---
 
