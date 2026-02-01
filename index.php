@@ -139,6 +139,85 @@
                 </article>
             </div>
         </section>
+        <!-- Formations -->
+        <section id="formations" class="flex reveal">
+            <h2 class="reveal-2"><i class="fa-solid fa-graduation-cap"></i> Formations</h2>
+            <div class="flex reveal-4">
+                <aside>
+                    <ul>
+                        <li class="fs-italic">2025</li>
+                        <li>À distance</li>
+                    </ul>
+                </aside>
+                <article>
+                    <ul>
+                        <li class="fw-bold">Développement Web et Web Mobile | Niveau 5 (Bac+2) | RNCP37674</li>
+                        <li class="fs-italic">CEFii Angers - Formation sur 12 mois</li>
+                    </ul>
+                </article>
+            </div>
+
+            <div class="flex reveal-4">
+                <aside>
+                    <ul>
+                        <li class="fs-italic">2009 - 2010</li>
+                        <li>Sète</li>
+                    </ul>
+                </aside>
+                <article>
+                    <ul>
+                        <li class="fw-bold">CAP Boulangerie</li>
+                        <li class="fs-italic">CFA Nicolas Albano</li>
+                    </ul>
+                </article>
+            </div>
+
+            <div class="flex reveal-4">
+                <aside>
+                    <ul>
+                        <li class="fs-italic">2006 - 2008</li>
+                        <li>Montpellier</li>
+                    </ul>
+                </aside>
+                <article>
+                    <ul>
+                        <li class="fw-bold">BTS MUC - Conduite et gestion des évènements sportifs</li>
+                        <li class="fs-italic">ESCA-INFORS</li>
+                    </ul>
+                </article>
+            </div>
+
+            <div class="flex reveal-4">
+                <aside>
+                    <ul>
+                        <li class="fs-italic">2007</li>
+                        <li>Montpellier</li>
+                    </ul>
+                </aside>
+                <article>
+                    <ul>
+                        <li class="fw-bold">BAFA, AFPS, BSB - Animateur en centre de loisirs</li>
+                        <li class="fs-italic">Direction Départementale de la Jeunesse et des Sports</li>
+                    </ul>
+                </article>
+            </div>
+
+            <div class="flex reveal-4">
+                <aside>
+                    <ul>
+                        <li class="fs-italic">2006</li>
+                        <li>Montpellier</li>
+                    </ul>
+                </aside>
+                <article>
+                    <ul>
+                        <li class="fw-bold">BAC Scientifique - Option Arts Plastiques</li>
+                        <li class="fs-italic">Lycée Notre-Dame de La Merci</li>
+                    </ul>
+                </article>
+            </div>
+
+        </section>
         <!-- Expériences Professionnelles -->
         <section id="experiences" class="flex reveal">
             <h2 class="reveal-2"><i class="fa-solid fa-suitcase"></i> Expériences Professionnelles</h2>
@@ -255,85 +334,6 @@
                 </article>
             </div>
         </section>
-        <!-- Formations -->
-        <section id="formations" class="flex reveal">
-            <h2 class="reveal-2"><i class="fa-solid fa-graduation-cap"></i> Formations</h2>
-            <div class="flex reveal-4">
-                <aside>
-                    <ul>
-                        <li class="fs-italic">2025</li>
-                        <li>À distance</li>
-                    </ul>
-                </aside>
-                <article>
-                    <ul>
-                        <li class="fw-bold">Développement Web et Web Mobile | Niveau 5 (Bac+2) | RNCP37674</li>
-                        <li class="fs-italic">CEFii Angers - Formation sur 12 mois</li>
-                    </ul>
-                </article>
-            </div>
-
-            <div class="flex reveal-4">
-                <aside>
-                    <ul>
-                        <li class="fs-italic">2009 - 2010</li>
-                        <li>Sète</li>
-                    </ul>
-                </aside>
-                <article>
-                    <ul>
-                        <li class="fw-bold">CAP Boulangerie</li>
-                        <li class="fs-italic">CFA Nicolas Albano</li>
-                    </ul>
-                </article>
-            </div>
-
-            <div class="flex reveal-4">
-                <aside>
-                    <ul>
-                        <li class="fs-italic">2006 - 2008</li>
-                        <li>Montpellier</li>
-                    </ul>
-                </aside>
-                <article>
-                    <ul>
-                        <li class="fw-bold">BTS MUC - Conduite et gestion des évènements sportifs</li>
-                        <li class="fs-italic">ESCA-INFORS</li>
-                    </ul>
-                </article>
-            </div>
-
-            <div class="flex reveal-4">
-                <aside>
-                    <ul>
-                        <li class="fs-italic">2007</li>
-                        <li>Montpellier</li>
-                    </ul>
-                </aside>
-                <article>
-                    <ul>
-                        <li class="fw-bold">BAFA, AFPS, BSB - Animateur en centre de loisirs</li>
-                        <li class="fs-italic">Direction Départementale de la Jeunesse et des Sports</li>
-                    </ul>
-                </article>
-            </div>
-
-            <div class="flex reveal-4">
-                <aside>
-                    <ul>
-                        <li class="fs-italic">2006</li>
-                        <li>Montpellier</li>
-                    </ul>
-                </aside>
-                <article>
-                    <ul>
-                        <li class="fw-bold">BAC Scientifique - Option Arts Plastiques</li>
-                        <li class="fs-italic">Lycée Notre-Dame de La Merci</li>
-                    </ul>
-                </article>
-            </div>
-
-        </section>
         <!-- Informatique -->
         <section id="computer" class="flex reveal">
             <h2 class="reveal-2"><i class="fa-solid fa-desktop"></i> Informatique</h2>
@@ -366,6 +366,11 @@
             </div>
 
             <div class="flex reveal-4">
+                <aside>Permis</aside>
+                <article>A & B</article>
+            </div>
+
+            <div class="flex reveal-4">
                 <aside>Bénévole</aside>
                 <article>Commissaire de piste FFSA & FFM au Circuit Paul Ricard / Le Castellet (83 Var)</article>
             </div>
@@ -386,8 +391,8 @@
             </div>
 
             <div class="flex reveal-4">
-                <aside>Permis</aside>
-                <article>A & B</article>
+                <aside>Défis</aside>
+                <article>GR20, L'Étape du Tour, GF Mont Ventoux, Bol d'Or Vélo 24h, Marathon de l'Hortus, Marseille-Cassis</article>
             </div>
         </section>
     </main>
