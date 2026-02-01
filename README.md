@@ -3,12 +3,6 @@ _Mon CV en ligne - Projet personnel DWWM_
 
 ---
 
-## 🔗 Accès
-
-- <a href="https://achardcedric.fr" target="_blank" rel="noopener noreferrer">https://achardcedric.fr</a>
-
----
-
 ## 🎯 Objectif
 
 - Créer un site clair, fonctionnel et professionnel
