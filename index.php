@@ -4,8 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Mon CV (curriculum vitæ) en format HTML / CSS / JavaScript et avec PHP / PHPMailer" />
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Développeur web full-stack spécialisé dans les technologies HTML, CSS, JavaScript et PHP. Consultez mon CV en ligne pour découvrir mon parcours et mes compétences techniques" />
+
+    <!-- Balises Open Graph privilégiées sur certains sites à la place de la balise meta description -->
+    <meta property="og:title" content="CV ACHARD Cédric" />
+    <meta name="title" property="og:title" content="CV ACHARD Cédric">
+    <meta property="og:description" content="Développeur web full-stack spécialisé dans les technologies HTML, CSS, JavaScript et PHP. Consultez mon CV en ligne pour découvrir mon parcours et mes compétences techniques" />
+    <meta name="description" property="og:description" content="Développeur web full-stack spécialisé dans les technologies HTML, CSS, JavaScript et PHP. Consultez mon CV en ligne pour découvrir mon parcours et mes compétences techniques">
+    <meta property="og:image" content="https://achardcedric.fr/img/photo_cv_share.png" />
+    <meta name="image" property="og:image" content="https://achardcedric.fr/img/photo_cv_share.png">
+    <meta property="og:url" content="https://achardcedric.fr" />
+
+    <link rel="stylesheet" href="style_0.0.css">
     <title>CV ACHARD Cédric</title>
     <link rel="icon" type="image/png" href="img/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -338,7 +348,7 @@
         <section id="computer" class="flex reveal">
             <h2 class="reveal-2"><i class="fa-solid fa-desktop"></i> Informatique</h2>
             <div class="flex reveal-4">
-                <aside>Bureautique</aside>
+                <aside>Office</aside>
                 <article>Microsoft Office, Word, Excel, PowerPoint</article>
             </div>
 
@@ -376,7 +386,7 @@
             </div>
 
             <div class="flex reveal-4">
-                <aside>Association</aside>
+                <aside>Club</aside>
                 <article>Création d’une équipe de Foot à 7, logo, maillots, sponsors, recrutement, comptabilité</article>
             </div>
 
