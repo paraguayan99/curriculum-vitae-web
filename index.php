@@ -15,7 +15,7 @@
     <meta name="image" property="og:image" content="https://achardcedric.fr/img/photo_cv_share.png">
     <meta property="og:url" content="https://achardcedric.fr" />
 
-    <link rel="stylesheet" href="style_0.0.css">
+    <link rel="stylesheet" href="style_2.3.css">
     <title>CV ACHARD Cédric</title>
     <link rel="icon" type="image/png" href="img/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -52,10 +52,23 @@
         </div>
 
         <div id="project" class="reveal-1">
-            <h2>Développeur Web et Web Mobile</h2>
-            <p>ECF validées, titre <strong>DWWM</strong> en attente de validation (février).
-                Je recherche une première opportunité en <strong>CDI</strong> ou en <strong>alternance</strong>, 
-                afin de monter en compétences et d’évoluer vers le titre de <strong>Concepteur Développeur d’Applications</strong>.</p>
+            <h2>
+                Développeur Fullstack 
+                <span class="break-mobile">Web & Mobile</span>
+            </h2>
+
+            <p>
+                Diplômé en mars 2026, je recherche mon premier défi en <strong>CDI</strong> 
+                ou en <strong>alternance</strong> pour préparer le titre de <strong>CDA</strong>.
+            </p>
+
+            <p>
+                Maîtrisant <strong>PHP/JS</strong> et initié à <strong>Kotlin</strong>, 
+                je gère la production du maquettage <strong>UX/UI</strong> 
+                jusqu’au déploiement <strong>Docker</strong> et au versionnage sous <strong>Git</strong>. 
+                Ma rigueur en algorithmique et ma culture <strong>DevOps</strong> 
+                me permettront de relever vos challenges techniques.
+            </p>
         </div>
     </header>
 

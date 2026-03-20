@@ -52,14 +52,14 @@
     }
 
     header {
-        width: 90% !important;
+        width: 95% !important;
         justify-content: space-evenly;
     }
 
     #photo_cv {
         width: 15%;
         justify-content: center;
-        align-items: center;
+        /* align-items: center; */
     }
 
     #photo_cv img {
@@ -68,15 +68,15 @@
     }
 
     #infos {
-        width: 30%;
+        width: 27%;
     }
 
     #project {
-        width: 40%;
+        width: 50%;
     }
 
     main {
-        padding-left: 15%;
+        padding-left: 10%;
     }
 
     main section {
@@ -108,10 +108,10 @@
     }
 
     @page {
-        margin-top: 2cm;     /* Marge en haut de TOUTES les pages */
-        margin-bottom: 2cm;  /* Marge en bas */
-        margin-left: 1cm;
-        margin-right: 1cm;
+        margin-top: 6mm;     /* Marge en haut de TOUTES les pages */
+        margin-bottom: 2mm;  /* Marge en bas */
+        margin-left: 2mm;
+        margin-right: 2mm;
     }
 }
 
@@ -164,8 +164,15 @@
     }
 
     #project {
-        width: 80%;
+        width: 85%;
         padding-right: 5%;
+    }
+
+    @media (max-width: 520px) {
+        /* Permet le retour à la ligne de "Web & Mobile" */
+        .break-mobile {
+            display: block;
+        }
     }
 
     main {
@@ -206,7 +213,7 @@
 }
 
 /* SUPPORT TABLETTE */
-@media screen and (min-width: 600px) and (max-width: 999px) {
+@media screen and (min-width: 600px) and (max-width: 1000px) {
     .reveal-loaded .reveal [class*="reveal-"] {
         opacity: 0!important;
         animation: none!important;
@@ -343,7 +350,7 @@
     }
 
     #project {
-        width: 40%;
+        width: 45%;
     }
 
     main {
