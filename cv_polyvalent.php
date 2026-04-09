@@ -47,200 +47,30 @@
                 <li>37 ans - Montpellier</li>
                 <li><i class="fa-solid fa-phone"></i> <a id="tel" href="tel:0671744802">06 71 74 48 02</a></li>
                 <li><i class="fa-solid fa-envelope"></i> <a id="mailto" href="mailto:achardcedric88@gmail.com">achardcedric88@gmail.com</a></li>
-                <li><i class="fa-solid fa-link"></i> <a href="https://achardcedric.fr/">achardcedric.fr</a></li>
             </ul>
         </div>
 
         <div id="project" class="reveal-1">
             <h2>
-                Développeur Fullstack 
-                <span class="break-mobile">Web & Mobile</span>
+                Employé Polyvalent
             </h2>
 
             <p>
-                Diplômé en mars 2026, je recherche mon premier défi en <strong>CDI</strong> 
-                ou en <strong>alternance</strong> pour préparer le titre de <strong>CDA</strong>.
+                <strong>Dynamique, souriant</strong> et doté d'un <strong>excellent sens du relationnel</strong>, 
+                je souhaite mettre mes <strong>11 ans d'expérience commerciale</strong> au service de votre établissement. 
+                Mon passage chez <strong>Pomona</strong> m'a permis de bien connaître <strong>l'univers de la restauration</strong>, 
+                tandis que mes expériences en <strong>boulangerie</strong> et chez <strong>McDonald's</strong> m'ont appris à gérer le <strong>flux client</strong> 
+                avec <strong>rapidité et rigueur</strong>.
             </p>
 
             <p>
-                Maîtrisant <strong>PHP/JS</strong> et initié à <strong>Kotlin</strong>, 
-                je gère la production du maquettage <strong>UX/UI</strong> 
-                jusqu’au déploiement <strong>Docker</strong> et au versionnage sous <strong>Git</strong>. 
-                Ma rigueur en algorithmique et ma culture <strong>DevOps</strong> 
-                me permettront de relever vos challenges techniques.
+                <strong>Sportif</strong> et habitué au <strong>travail d'équipe</strong>, je suis prêt à m'investir pour garantir un <strong>service de qualité</strong>.
             </p>
         </div>
     </header>
 
-    <!-- Main contenant portfolio, stack technique, expériences professionnelles, formations et infos diverses dans chaque section -->
+    <!-- Main contenant expériences professionnelles, formations et infos diverses dans chaque section -->
     <main class="flex">
-        <!-- Portfolio -->
-        <section id="liens" class="flex reveal">
-            <h2 class="reveal-2"><i class="fa-solid fa-book-bookmark"></i> Portfolio</h2>
-            <div class="flex reveal-4">
-                <aside>Liens</aside>
-                <article>
-                    <ul>
-                        <li><i class="fa-brands fa-github"></i></i> 
-                            <a href="https://github.com/paraguayan99/" target="_blank">github.com/paraguayan99</a>
-                        </li>
-                        <li><i class="fa-solid fa-arrow-right"></i> Dépôt de mes projets de développement</li>
-
-                        <div></div>
-
-                        <li><object id="logoSvg" data="img/team_eracing_logo_white.svg" type="image/svg+xml" width="24" height="16"></object> 
-                            <a href="https://team-eracing.fr/" target="_blank">team-eracing.fr</a>
-                        </li>
-                        <li><i class="fa-solid fa-arrow-right"></i> Projet de fin d'études utilisé par notre communauté</li>
-                    </ul>
-                </article>
-            </div>
-        </section>
-
-
-        <!-- Stack technique -->
-        <section id="notions" class="flex reveal">
-            <h2 class="reveal-2"><i class="fa-solid fa-code"></i> Stack technique</h2>
-            <div class="flex reveal-4">
-                <aside>Front-end</aside>
-                <article>
-                    <ul>
-                        <li><i class="fa-brands fa-html5"></i> HTML</li>
-                        <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
-                        <li><i class="fa-brands fa-js"></i> JavaScript</li>
-                        <li><i class="fa-brands fa-bootstrap"></i> Bootstrap</li>
-                        <li><i class="fa-solid fa-rotate-left"></i> AJAX / JavaScript asynchrone</li>
-                    </ul>
-                </article>
-            </div>
-
-            <div class="flex reveal-4">
-                <aside>Back-end</aside>
-                <article>
-                    <ul>
-                        <li><i class="fa-brands fa-php"></i> PHP / Programmation procédurale et orientée objet</li>
-                        <li><i class="fa-solid fa-database"></i> Base de données MySQL / phpMyAdmin</li>
-                        <li><i class="fa-solid fa-database"></i> Base de données NoSQL / MongoDB Compass et Mongosh</li>
-                        <li><i class="fa-solid fa-gear"></i> API REST en PHP & JavaScript avec Postman</li>
-                        <li><i class="fa-solid fa-table-list"></i> MERISE / Schématiser base de données</li>
-                        <li><i class="fa-solid fa-square-share-nodes"></i> UML Modélisation / Astah UML</li>
-                    </ul>
-                </article>
-            </div>
-
-            <div class="flex reveal-4">
-                <aside>Mobile</aside>
-                <article>
-                    <ul>
-                        <li><i class="fa-solid fa-mobile-screen-button"></i> Kotlin / Application mobile avec Android Studio</li>
-                    </ul>
-                </article>
-            </div>
-
-            <div class="flex reveal-4">
-                <aside>Outils</aside>
-                <article>
-                    <ul>
-                        <li><i class="fa-brands fa-github"></i></i> Git / Github</li>
-                        <li><i class="fa-brands fa-docker"></i> Docker / Docker Hub</li>
-                    </ul>
-                </article>
-            </div>
-
-            <div class="flex reveal-4">
-                <aside>Général</aside>
-                <article>
-                    <ul>
-                        <li><i class="fa-solid fa-infinity"></i> DevOps</li>
-                        <li><i class="fa-solid fa-calculator"></i> Programmation et Algorithmique</li>
-                        <li><i class="fa-solid fa-diagram-project"></i> Gestion de projet web / Gantt Project</li>
-                        <li><i class="fa-solid fa-palette"></i> Maquetter interface UX UI / Figma & GlooMaps</li>
-                        <li><i class="fa-solid fa-computer-mouse"></i> Ergonomie web</li>
-                        <li><i class="fa-solid fa-magnifying-glass"></i> SEO / Référencement naturel</li>
-                        <li><i class="fa-brands fa-wordpress"></i> CMS / WordPress</li>
-                    </ul>
-                </article>
-            </div>
-        </section>
-        <!-- Formations -->
-        <section id="formations" class="flex reveal">
-            <h2 class="reveal-2"><i class="fa-solid fa-graduation-cap"></i> Formations</h2>
-            <div class="flex reveal-4">
-                <aside>
-                    <ul>
-                        <li class="fs-italic">2025</li>
-                        <li>À distance</li>
-                    </ul>
-                </aside>
-                <article>
-                    <ul>
-                        <li class="fw-bold">Développement Web et Web Mobile | Niveau 5 (Bac+2) | RNCP37674</li>
-                        <li class="fs-italic">CEFii Angers - Formation sur 12 mois</li>
-                    </ul>
-                </article>
-            </div>
-
-            <div class="flex reveal-4">
-                <aside>
-                    <ul>
-                        <li class="fs-italic">2009 - 2010</li>
-                        <li>Sète</li>
-                    </ul>
-                </aside>
-                <article>
-                    <ul>
-                        <li class="fw-bold">CAP Boulangerie</li>
-                        <li class="fs-italic">CFA Nicolas Albano</li>
-                    </ul>
-                </article>
-            </div>
-
-            <div class="flex reveal-4">
-                <aside>
-                    <ul>
-                        <li class="fs-italic">2006 - 2008</li>
-                        <li>Montpellier</li>
-                    </ul>
-                </aside>
-                <article>
-                    <ul>
-                        <li class="fw-bold">BTS MUC - Conduite et gestion des évènements sportifs</li>
-                        <li class="fs-italic">ESCA-INFORS</li>
-                    </ul>
-                </article>
-            </div>
-
-            <div class="flex reveal-4">
-                <aside>
-                    <ul>
-                        <li class="fs-italic">2007</li>
-                        <li>Montpellier</li>
-                    </ul>
-                </aside>
-                <article>
-                    <ul>
-                        <li class="fw-bold">BAFA, AFPS, BSB - Animateur en centre de loisirs</li>
-                        <li class="fs-italic">Direction Départementale de la Jeunesse et des Sports</li>
-                    </ul>
-                </article>
-            </div>
-
-            <div class="flex reveal-4">
-                <aside>
-                    <ul>
-                        <li class="fs-italic">2006</li>
-                        <li>Montpellier</li>
-                    </ul>
-                </aside>
-                <article>
-                    <ul>
-                        <li class="fw-bold">BAC Scientifique - Option Arts Plastiques</li>
-                        <li class="fs-italic">Lycée Notre-Dame de La Merci</li>
-                    </ul>
-                </article>
-            </div>
-
-        </section>
         <!-- Expériences Professionnelles -->
         <section id="experiences" class="flex reveal">
             <h2 class="reveal-2"><i class="fa-solid fa-suitcase"></i> Expériences Professionnelles</h2>
@@ -357,27 +187,103 @@
                 </article>
             </div>
         </section>
+
+        <!-- Formations -->
+        <section id="formations" class="flex reveal">
+            <h2 class="reveal-2"><i class="fa-solid fa-graduation-cap"></i> Formations</h2>
+            <div class="flex reveal-4">
+                <aside>
+                    <ul>
+                        <li class="fs-italic">2025</li>
+                        <li>À distance</li>
+                    </ul>
+                </aside>
+                <article>
+                    <ul>
+                        <li class="fw-bold">Développement Web et Web Mobile | Niveau 5 (Bac+2) | RNCP37674</li>
+                        <li class="fs-italic">CEFii Angers - Formation sur 12 mois</li>
+                    </ul>
+                </article>
+            </div>
+
+            <div class="flex reveal-4">
+                <aside>
+                    <ul>
+                        <li class="fs-italic">2009 - 2010</li>
+                        <li>Sète</li>
+                    </ul>
+                </aside>
+                <article>
+                    <ul>
+                        <li class="fw-bold">CAP Boulangerie</li>
+                        <li class="fs-italic">CFA Nicolas Albano</li>
+                    </ul>
+                </article>
+            </div>
+
+            <div class="flex reveal-4">
+                <aside>
+                    <ul>
+                        <li class="fs-italic">2006 - 2008</li>
+                        <li>Montpellier</li>
+                    </ul>
+                </aside>
+                <article>
+                    <ul>
+                        <li class="fw-bold">BTS MUC - Conduite et gestion des évènements sportifs</li>
+                        <li class="fs-italic">ESCA-INFORS</li>
+                    </ul>
+                </article>
+            </div>
+
+            <div class="flex reveal-4">
+                <aside>
+                    <ul>
+                        <li class="fs-italic">2007</li>
+                        <li>Montpellier</li>
+                    </ul>
+                </aside>
+                <article>
+                    <ul>
+                        <li class="fw-bold">BAFA, AFPS, BSB - Animateur en centre de loisirs</li>
+                        <li class="fs-italic">Direction Départementale de la Jeunesse et des Sports</li>
+                    </ul>
+                </article>
+            </div>
+
+            <div class="flex reveal-4">
+                <aside>
+                    <ul>
+                        <li class="fs-italic">2006</li>
+                        <li>Montpellier</li>
+                    </ul>
+                </aside>
+                <article>
+                    <ul>
+                        <li class="fw-bold">BAC Scientifique - Option Arts Plastiques</li>
+                        <li class="fs-italic">Lycée Notre-Dame de La Merci</li>
+                    </ul>
+                </article>
+            </div>
+
+        </section>
+
         <!-- Informatique -->
         <section id="computer" class="flex reveal">
             <h2 class="reveal-2"><i class="fa-solid fa-desktop"></i> Informatique</h2>
             <div class="flex reveal-4">
                 <aside>Office</aside>
-                <article>Microsoft Office, Word, Excel, PowerPoint</article>
+                <article>Excel, Word, PowerPoint</article>
             </div>
 
             <div class="flex reveal-4">
-                <aside>Adobe</aside>
-                <article>Photoshop, After Effects</article>
+                <aside>Création</aside>
+                <article>Photoshop, After Effects, Montage vidéo, Image vectorielle</article>
             </div>
 
             <div class="flex reveal-4">
-                <aside>Vidéo</aside>
-                <article>Montage sous Wondershare Filmora</article>
-            </div>
-
-            <div class="flex reveal-4">
-                <aside>Image</aside>
-                <article>Vectoriel sous Inkscape, retouches sous PhotoFiltre</article>
+                <aside>Dév</aside>
+                <article>Conception et gestion technique de projets web avec base de données</article>
             </div>
         </section>
         <!-- Extra-professionnel -->
@@ -420,34 +326,7 @@
         </section>
     </main>
     <!-- Footer comprenant l'envoi par mail, l'impression et la mention 'imaginé et conçu' -->
-    <footer class="flex reveal noprint">
-            <div id="cvbymail" class="flex reveal-2">
-                <form id="cvbymailform" class="flex" action="traitement.php" method="POST" enctype="multipart/form-data" onsubmit="return verifMail()">
-                        <label for="sendmail"><i id="iconcvbymail" class="fa-solid fa-envelope"></i> Recevoir mon CV par mail : </label>
-                        <input id="sendmail" name="sendmail" maxlength="50" placeholder="votremail@exemple.fr">
-                        
-                        <input id="submit" type="submit" value="Envoyer">
-                </form>
-            </div>
-
-            <!-- regExp JavaScript sur la saisie du mail, en cas d'erreur ce message s'affiche -->
-            <div id="errormail" class="flex reveal-2 hidden">
-                Veuillez saisir un mail valide.
-            </div>
-
-            <?php
-            // Après le traitement.php, une redirection '?send=true/false' est faite : l'un des 2 messages s'affiche
-            if (isset($_GET['send']) && $_GET['send'] == 'true') {
-                echo '<div id="sendtrue" class="flex reveal-2">
-                            CV envoyé avec succès !
-                        </div>';
-            } elseif (isset($_GET['send']) && $_GET['send'] == 'false') {
-                echo '<div id="sendfalse" class="flex reveal-2">
-                            Echec, veuillez réessayer.
-                        </div>';
-            }
-            ?>
-
+    <footer id="others_cv" class="flex reveal noprint">
             <div id="autor" class="flex reveal-2">
                 <div>Imaginé et conçu par mes soins</div>
                 <div><small>CV Responsive Smartphone / Tablette / Desktop</small></div>
