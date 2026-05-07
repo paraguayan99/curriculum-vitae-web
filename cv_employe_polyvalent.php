@@ -52,22 +52,23 @@
 
         <div id="project" class="reveal-1">
             <h2>
-                Commercial Polyvalent & Expert Tech
+                Employé Polyvalent
             </h2>
+
             <p>
-                Fort de <strong>11 ans d'expérience commerciale</strong> en B2B et B2C, 
-                et récemment diplômé en <strong>Développement Web</strong>, j'ai choisi 
-                d'allier mes compétences par <strong>passion pour les nouvelles 
-                technologies</strong>. Maîtrisant la <strong>prospection</strong> et la <strong>vente</strong>, 
-                je m'appuie sur mon <strong>expertise technique</strong> pour répondre 
-                avec précision aux besoins de chaque client.
+                <strong>Dynamique, souriant</strong> et doté d'un <strong>excellent sens du 
+                relationnel</strong>, je souhaite mettre mes <strong>11 ans d'expérience 
+                commerciale</strong> au service de votre établissement. 
+                Mon passage chez <strong>Pomona</strong> m'a permis de bien connaître 
+                <strong>l'univers de la restauration</strong>, tandis que mes expériences 
+                en <strong>boulangerie</strong> et chez <strong>McDonald's</strong> 
+                m'ont appris à gérer le <strong>flux client</strong> avec <strong>rapidité 
+                et rigueur</strong>.
             </p>
 
             <p>
-                <strong>Rigoureux, orienté résultats</strong> et habitué aux 
-                <strong>défis</strong>, je suis prêt à mettre mon 
-                <strong>dynamisme</strong> et ma <strong>persévérance</strong> au 
-                service de votre croissance.
+                <strong>Sportif</strong> et habitué au <strong>travail d'équipe</strong>, 
+                je suis prêt à m'investir pour garantir un <strong>service de qualité</strong>.
             </p>
         </div>
     </header>

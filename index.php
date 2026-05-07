@@ -48,6 +48,7 @@
                 <li><i class="fa-solid fa-phone"></i> <a id="tel" href="tel:0671744802">06 71 74 48 02</a></li>
                 <li><i class="fa-solid fa-envelope"></i> <a id="mailto" href="mailto:achardcedric88@gmail.com">achardcedric88@gmail.com</a></li>
                 <li><i class="fa-solid fa-link"></i> <a href="https://achardcedric.fr/">achardcedric.fr</a></li>
+                <li><i class="fa-brands fa-linkedin"></i> <a href="https://linkedin.com/in/achardcedric" target="_blank">linkedin.com/in/achardcedric</a></li>
             </ul>
         </div>
 

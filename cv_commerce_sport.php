@@ -52,19 +52,21 @@
 
         <div id="project" class="reveal-1">
             <h2>
-                Employé Polyvalent
+                Conseiller Commercial Sport
             </h2>
-
             <p>
-                <strong>Dynamique, souriant</strong> et doté d'un <strong>excellent sens du relationnel</strong>, 
-                je souhaite mettre mes <strong>11 ans d'expérience commerciale</strong> au service de votre établissement. 
-                Mon passage chez <strong>Pomona</strong> m'a permis de bien connaître <strong>l'univers de la restauration</strong>, 
-                tandis que mes expériences en <strong>boulangerie</strong> et chez <strong>McDonald's</strong> m'ont appris à gérer le <strong>flux client</strong> 
-                avec <strong>rapidité et rigueur</strong>.
+                <strong>Passionné de sport</strong> et fort d'une <strong>solide expérience 
+                commerciale</strong> (B2B/B2C), je souhaite réintégrer le secteur de la 
+                <strong>distribution spécialisée</strong>. 
+                <strong>Ancien collaborateur Intersport</strong>, je maîtrise les 
+                <strong>techniques de vente</strong>, la <strong>gestion des stocks</strong> 
+                et le <strong>conseil client</strong>.
             </p>
 
             <p>
-                <strong>Sportif</strong> et habitué au <strong>travail d'équipe</strong>, je suis prêt à m'investir pour garantir un <strong>service de qualité</strong>.
+                <strong>Polyvalent, rigoureux</strong> et <strong>sportif régulier</strong>, 
+                je suis prêt à mettre mon <strong>dynamisme</strong> et mon <strong>sens 
+                du défi</strong> au service de votre équipe.
             </p>
         </div>
     </header>

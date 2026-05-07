@@ -1,7 +1,6 @@
-#CV
-cv_achard_cedric.pdf
-cv_achardcedric_com.pdf
-cv_achardcedric_emp.pdf
+#CV PDF
+cv_achard_cedric*.pdf
+cv_achardcedric_*.pdf
 
 # Développement
 memos_dev.txt

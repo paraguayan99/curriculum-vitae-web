@@ -47,27 +47,28 @@
                 <li>37 ans - Montpellier</li>
                 <li><i class="fa-solid fa-phone"></i> <a id="tel" href="tel:0671744802">06 71 74 48 02</a></li>
                 <li><i class="fa-solid fa-envelope"></i> <a id="mailto" href="mailto:achardcedric88@gmail.com">achardcedric88@gmail.com</a></li>
+                <li><i class="fa-solid fa-link"></i> <a href="https://achardcedric.fr/">achardcedric.fr</a></li>
+                <li><i class="fa-brands fa-linkedin"></i> <a href="https://linkedin.com/in/achardcedric" target="_blank">linkedin.com/in/achardcedric</a></li>
             </ul>
         </div>
 
         <div id="project" class="reveal-1">
             <h2>
-                Commercial Polyvalent & Expert Tech
+                Technicien informatique de proximité
             </h2>
-            <p>
-                Fort de <strong>11 ans d'expérience commerciale</strong> en B2B et B2C, 
-                et récemment diplômé en <strong>Développement Web</strong>, j'ai choisi 
-                d'allier mes compétences par <strong>passion pour les nouvelles 
-                technologies</strong>. Maîtrisant la <strong>prospection</strong> et la <strong>vente</strong>, 
-                je m'appuie sur mon <strong>expertise technique</strong> pour répondre 
-                avec précision aux besoins de chaque client.
-            </p>
 
             <p>
-                <strong>Rigoureux, orienté résultats</strong> et habitué aux 
-                <strong>défis</strong>, je suis prêt à mettre mon 
-                <strong>dynamisme</strong> et ma <strong>persévérance</strong> au 
-                service de votre croissance.
+                Passionné par l'<strong>informatique</strong> depuis toujours, j'ai récemment 
+                concrétisé cette vocation par un titre de <strong>Développeur Web</strong>. 
+                Ce <strong>parcours technique</strong>, couplé à 11 années d'<strong>expérience commerciale</strong>, 
+                m'offre une double compétence : une maîtrise des <strong>environnements 
+                numériques</strong> et une aisance <strong>pédagogique</strong>.
+            </p>
+            
+            <p>
+                <strong>Rigoureux et autonome</strong>, je souhaite aujourd'hui mettre 
+                mon sens du service et ma réactivité au profit de la 
+                <strong>transformation numérique</strong>. 
             </p>
         </div>
     </header>

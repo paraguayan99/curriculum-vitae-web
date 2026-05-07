@@ -52,23 +52,23 @@
 
         <div id="project" class="reveal-1">
             <h2>
-                Commercial Polyvalent & Expert Tech
+                Business Developer Tech & IT
             </h2>
-            <p>
-                Fort de <strong>11 ans d'expérience commerciale</strong> en B2B et B2C, 
-                et récemment diplômé en <strong>Développement Web</strong>, j'ai choisi 
-                d'allier mes compétences par <strong>passion pour les nouvelles 
-                technologies</strong>. Maîtrisant la <strong>prospection</strong> et la <strong>vente</strong>, 
-                je m'appuie sur mon <strong>expertise technique</strong> pour répondre 
-                avec précision aux besoins de chaque client.
-            </p>
+                <p>
+                    Fort de <strong>11 ans d'expérience commerciale</strong> en B2B et B2C, 
+                    et récemment diplômé en <strong>Développement Web</strong>, je souhaite mettre ma 
+                    <strong>double compétence</strong> au service du secteur informatique. 
+                    Maîtrisant les <strong>techniques de vente</strong>, la gestion de secteur 
+                    et la <strong>programmation web</strong>, je sais traduire les 
+                    besoins complexes en solutions concrètes.
+                </p>
 
-            <p>
-                <strong>Rigoureux, orienté résultats</strong> et habitué aux 
-                <strong>défis</strong>, je suis prêt à mettre mon 
-                <strong>dynamisme</strong> et ma <strong>persévérance</strong> au 
-                service de votre croissance.
-            </p>
+                <p>
+                    <strong>Rigoureux, orienté résultats</strong> et habitué aux 
+                    <strong>défis</strong>, je suis prêt à mettre mon 
+                    <strong>dynamisme</strong> et ma <strong>persévérance</strong> au 
+                    service de votre croissance.
+                </p>
         </div>
     </header>
 
